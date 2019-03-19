@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">安卓开始之旅</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>

@@ -1,0 +1,84 @@
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="This is the Second Activity!"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击跳转到MainActivity" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:hint="this is hint text"
+            android:lines="2"/>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+    >
+
+    <ImageView
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="#eeeeee"
+            android:src="@drawable/chuyin"
+    />
+
+    <TextView
+            android:id="@+id/text1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+    >
+
+        <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:background="#eeeeee"
+                android:src="@drawable/chuyin"
+        />
+
+        <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="fitXY"/>
+
+    </LinearLayout>
+
+</LinearLayout>
